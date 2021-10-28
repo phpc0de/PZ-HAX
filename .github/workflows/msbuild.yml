@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: windows-latest
     env:
-      DXSDK_DIR: C:\apps\Microsoft DirectX SDK
+      DXSDK_DIR: "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\"
     steps:
     - uses: actions/checkout@v2
 
