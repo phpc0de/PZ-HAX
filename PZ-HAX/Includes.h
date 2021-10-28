@@ -17,6 +17,8 @@
 #include <d3dx9.h>
 #pragma comment(lib, "d3d9.lib")
 #pragma comment(lib, "d3dx9.lib")
+Include: $(DXSDK_DIR)Include
+Library: $(DXSDK_DIR)Lib\x86 or $(DXSDK_DIR)Lib\x64
 //ImGui
 #include "ImGui/imgui.h"
 #include "ImGui/imgui_internal.h"
