@@ -13,30 +13,30 @@
 
 #define OBMGR_PATTERN1 {0x12,0x69,0xa3,0xd7,0xef,0x47,0x84,0x59}
 #define OBMFR_PATTERN2 {0xae,0x15,0x75,0xa7,0x6e,0x35,0xe4,0x2c}
-#define OBFUS_MGR_PTR_1 0x14388F200
-#define OBFUS_MGR_RET_1 0x147B69257 // SIG: 48 31 F3 4C 89 74 24 ? 48 89 D8 EB 03
-#define OBFUS_MGR_DEC_FUNC 0x141609A80
+#define OBFUS_MGR_PTR_1 0x1438B46D0
+#define OBFUS_MGR_RET_1 0x147E207B6 // SIG: 48 31 F3 4C 89 74 24 ? 48 89 D8 EB 03
+#define OBFUS_MGR_DEC_FUNC 0x14161F880
 #define OBFUS_STATIC_KEY 0x598447EFD7A36912
-#define CLIENT_GAME_CONTEXT 0x1447292f8
-#define OFFSET_GAMERENDERER 0x1447cdeb8
-#define PROTECTED_THREAD 0x1447296A4
+#define CLIENT_GAME_CONTEXT 0x1447522A8
+#define OFFSET_GAMERENDERER 0x1447F6FB8
+#define PROTECTED_THREAD 0x144752654
 
-#define TYPEINFO_ClientSoldierEntity 0x144F02500
-#define TYPEINFO_ClientVehicleEntity 0x144E0DAE0
-#define TYPEINFO_ClientSupplySphereEntity 0x144C4E4C0
-#define TYPEINFO_ClientCombatAreaTriggerEntity 0x144E0F1E0
-#define TYPEINFO_ClientExplosionPackEntity 0x144F07C50
-#define TYPEINFO_ClientProxyGrenadeEntity 0x144F07920
-#define TYPEINFO_ClientGrenadeEntity 0x144F07B40
-#define TYPEINFO_ClientInteractableGrenadeEntity 0x144CC2600
-#define TYPEINFO_ClientCapturePointEntity 0x144C7D8B0
-#define TYPEINFO_ClientLootItemEntity 0x144C44730
-#define TYPEINFO_ClientArmorVestLootItemEntity 0x144CBA050
-#define TYPEINFO_ClientStaticModelEntity 0x144E06880
-#define TYPEINFO_ClientStaticModelEntity_vtbl 0x14388B7F0
+#define TYPEINFO_ClientSoldierEntity 0x144F2EF50
+#define TYPEINFO_ClientVehicleEntity 0x144E3A170
+#define TYPEINFO_ClientSupplySphereEntity 0x144C54550
+#define TYPEINFO_ClientCombatAreaTriggerEntity 0x144E3B870
+#define TYPEINFO_ClientExplosionPackEntity 0x144F346A0
+#define TYPEINFO_ClientProxyGrenadeEntity 0x144F34370
+#define TYPEINFO_ClientGrenadeEntity 0x144F34590
+#define TYPEINFO_ClientInteractableGrenadeEntity 0x144C5BCB0
+#define TYPEINFO_ClientCapturePointEntity 0x144C8DD30
+#define TYPEINFO_ClientLootItemEntity 0x144C473A0
+#define TYPEINFO_ClientArmorVestLootItemEntity 0x144C89090
+#define TYPEINFO_ClientStaticModelEntity 0x144E32F10
+#define TYPEINFO_ClientStaticModelEntity_vtbl 0x1437A7EF8
 
 #define CLIENTPLAYER_TEAMID_OFFSET 0x1C48
-#define CLIENTPLAYER_NAME_OFFSET 0x18
+#define CLIENTPLAYER_NAME_OFFSET 0x20
 #define CLIENTPLAYER_SOLDIER_OFFSET 0x1D50
 #define CLIENTPLAYER_VEHICLE_OFFSET 0x1D60
 #define CLIENTSOLDIER_HEALTHCOMPONENT_OFFSET 0x2e8
